@@ -3,21 +3,16 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Graphics;
-import java.util.Observable;
-import java.util.Observer;
-
 import javax.swing.JComponent;
 
 import model.StdGridModel;
-import utilities.Coord;
-import utilities.Direction;
-import utilities.StdCoord;
 import utilities.StdEdge;
 import utilities.StdNode;
 
 public class GraphicGrid extends JComponent {
 
 	
+	private static final long serialVersionUID = 1L;
 	public static final int GRID_SQUARE_EDGE_SIZE = 80;
 	public static final int GRID_MARGIN = 3;
 	public static final int GRID_CIRCLE_MARGIN = 20;

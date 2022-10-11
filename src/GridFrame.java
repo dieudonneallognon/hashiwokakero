@@ -1,5 +1,4 @@
 import java.awt.BorderLayout;
-import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.Toolkit;
@@ -8,7 +7,6 @@ import java.awt.event.ActionListener;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
-import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -18,6 +16,7 @@ import javax.swing.SpinnerNumberModel;
 import javax.swing.SwingUtilities;
 
 public class GridFrame extends JFrame {
+	private static final long serialVersionUID = -4660153372811168129L;
 	private JSpinner sizeField;
 	private JSpinner widthField;
 	private JSpinner heightField;
